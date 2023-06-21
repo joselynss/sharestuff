@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+/* mau edit spy jdi sebaris */
+nav .container{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    height: 5vw;
+    width: 100%;
+}
+
+nav a{
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+.container .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.container .logo img{
+    width: 6vw;
+}
+
+.container .logo a{
+    font-size: 2vw;
+}
+
+.container .nav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+}
+
+.container a:hover{
+    color: #FF9800;
+}
+
+/* hero */
+
+#hero .container{
+    /* background-image: url('../image/hero.jpeg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* biar kebwh */
+    gap: 1vh;
+}
+
+#hero .container h1{
+    color: white;
+    font-size: 4vw;
+    text-shadow: 3px 3px 2px black; /* formatnya itu x, y, blur */
+}
+
+#hero .container h2{
+    color: white;
+    font-size: 2vw;
+    text-shadow: 2px 2px 2px black;
+}
+
+#hero .container button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    font-size: 1vw;
+    box-shadow: 2px 2px 2px black;
+}
+
+#hero .container button a{
+    color: white;
+    text-decoration: none;
+}
+
+#hero button:hover{
+    background-color: pink;
+    transition: linear 0.2s;
+}
+
+/* categories */
+
+#categories .container{
+    /* background-image: url('../image/wallpaper2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: white;
+    height: 70vh;
+    /* tdnya 100 height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#categories .title h1{
+    color: black;
+    font-size: 3vw;
+}
+
+#categories .container .content{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+#categories .container .content .card{
+    background-image: url('../image/sport.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: palevioletred;
+    height: 20vh;
+    width: 15vw;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card h3{
+    color: white;
+    font-size: 1.5vw;
+}
+
+/* featured */
+
+/* #featured{
+    background-image: url('../image/wallpaper3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#featured .container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    width: 60vw;
+    border-radius: 50px;
+}
+
+#featured .content{
+    margin: 2vw;
+}
+
+#featured img{
+    border-radius: 50px 0px 0px 50px;
+} */
+
+
+#featured .container{
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#featured .title h1{
+    color: black;
+    font-size: 3vw;
+}
+
+#featured .container .content{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+#featured .container .content .card{
+    background-image: url('../image/sport.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: palevioletred;
+    height: 20vh;
+    width: 15vw;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card h3{
+    color: white;
+    font-size: 1.5vw;
+}
+
+/* footer */
+
+/* spy jdi susunan kolom, biar di tgh2, ksi padding biar ga mepet */
+footer .container{
+    display: flex;
+    flex-direction: column;
+    background-color: #2B2B2B;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    gap: 1vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    color: white;
+}
+
+.container .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.container .header img{
+    width: 6vw;
+}
+
+.container .header a{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p .copyright{
+    font-size: 10px;
+}
+
+.container .socialmedia{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.container .socialmedia img{
+    width: 3vw;
+}

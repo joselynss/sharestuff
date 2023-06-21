@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+/* mau edit spy jdi sebaris */
+nav .container{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    /* background-color: plum; */
+    background-color: white;
+    justify-content: space-around;
+    height: 5vw;
+    width: 100%;
+}
+
+nav a{
+    /* color: white; */
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+.container .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.container .logo img{
+    width: 6vw;
+}
+
+.container .logo a{
+    font-size: 2vw;
+}
+
+.container .nav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+}
+
+.container a:hover{
+    /* color: green; */
+    color: #FF9800;
+}
